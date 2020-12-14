@@ -7,6 +7,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { PagosCardComponent } from './components/pagos-card/pagos-card.component';
 import { InicioPageComponent } from './pages/inicio-page/inicio-page.component';
 import { NoticiasPageComponent } from './pages/noticias-page/noticias-page.component';
+import { CuotasPageComponent } from './pages/cuotas/cuotas-page.component';
+import { CuotaFormPageComponent } from './pages/cuotas/cuota-form-page.component';
+import { CuotasListComponent } from './components/cuotas-list/cuotas-list.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { NoticiasPageComponent } from './pages/noticias-page/noticias-page.compo
     NavbarComponent,
     PagosCardComponent,
     InicioPageComponent,
-    NoticiasPageComponent
+    NoticiasPageComponent,
+    CuotasPageComponent,
+    CuotaFormPageComponent,
+    CuotasListComponent,
   ],
   imports: [
     BrowserModule,
